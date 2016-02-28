@@ -1,6 +1,7 @@
 source 'https://rubygems.org'
 
 ruby '2.2.1'
+gem 'puma'
 gem 'bson_ext'
 gem 'httparty'
 gem 'mongoid'
