@@ -1,9 +1,10 @@
 source 'https://rubygems.org'
 
-ruby '2.2.4'
+ruby '2.2.1'
 gem 'bson_ext'
 gem 'httparty'
 gem 'mongoid'
+
 group :production do
   gem 'rails_12factor'
 end
